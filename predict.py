@@ -1,6 +1,6 @@
 from input import mechine_learning as a
 import streamlit as st
-st.header("Labeling Demo")
+st.header("NB Text Classifier")
 input = st.text_area("Enter the text", value="")
 l=[]
 l.append(input)
